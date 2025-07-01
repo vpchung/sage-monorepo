@@ -30,10 +30,10 @@ delete:
     '204':
       description: Deletion successful
     '401':
-      $ref: ../../../components/responses/Unauthorized.yaml
+      $ref: ../../components/responses/Unauthorized.yaml
     '403':
-      $ref: ../../../components/responses/Forbidden.yaml
+      $ref: ../../components/responses/Forbidden.yaml
     '404':
-      $ref: ../../../components/responses/NotFound.yaml
+      $ref: ../../components/responses/NotFound.yaml
     '500':
-      $ref: ../../../components/responses/InternalServerError.yaml
+      $ref: ../../components/responses/InternalServerError.yaml
